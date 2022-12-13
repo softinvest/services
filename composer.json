@@ -1,0 +1,22 @@
+{
+  "name": "softinvest/services",
+  "description": "misc services",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "softinvest",
+      "email": "c@bragin.su"
+    }
+  ],
+  "keywords": [
+    "misc services"
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SoftInvest\\Services\\": "src\\Services"
+    }
+  }
+}
